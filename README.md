@@ -10,3 +10,7 @@ The curl version is new, so the option `--unix-socket` for Docker API requests i
 ```
 docker run -d --name curl pstauffer/curl:latest
 ```
+
+
+## License
+This project is licensed under `MIT <http://opensource.org/licenses/MIT>`_.
