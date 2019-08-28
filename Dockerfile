@@ -1,10 +1,3 @@
-FROM alpine:3.8
+FROM alpine
 
-MAINTAINER pstauffer@confirm.ch
-
-#
-# Install all required dependencies.
-#
-
-RUN apk add --update curl && \
-    rm -rf /var/cache/apk/*
+RUN apk add --update --no-cache curl
