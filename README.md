@@ -9,9 +9,9 @@ The curl version is new, so the option `--unix-socket` for Docker API requests i
 
 ## Usage
 ```
-docker run -d --name curl ghcr.io/zenaptix-lab/curl:latest
-docker run --rm --name curl ghcr.io/zenaptix-lab/curl:latest curl --version
-docker run --rm --name curl ghcr.io/zenaptix-lab/curl:latest curl http://www.google.ch
+docker run -it --rm --name curl ghcr.io/zenaptix-lab/curl
+docker run -it --rm --name curl ghcr.io/zenaptix-lab/curl --version
+docker run -it --rm --name curl ghcr.io/zenaptix-lab/curl https://ifconfig.co
 ```
 
 ## License

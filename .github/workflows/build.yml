@@ -53,4 +53,3 @@ jobs:
           docker push $GH_IMAGE:$VERSION
           docker tag $IMAGE_NAME $QUAY_IMAGE:$VERSION
           docker push $QUAY_IMAGE:$VERSION
-          
